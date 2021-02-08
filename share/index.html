@@ -78,7 +78,7 @@ keywords：洋葱VPN,OnionVPN,789加速器,旋风加速器,蚂蚁加速器,NordV
   <link rel="stylesheet" href="./css/index2.css">
   <!-- <script type="text/javascript" src="./js/appinstall.js"></script> -->
   <title>「洋葱加速器」分享流程</title>
-  <!-- <style>
+  <style>
     .body-bottom1{
       display: none;
       position: fixed;
@@ -91,8 +91,11 @@ keywords：洋葱VPN,OnionVPN,789加速器,旋风加速器,蚂蚁加速器,NordV
       line-height: 50px;
       border-radius: 50px;
       left:40px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
     }
-  </style> -->
+  </style>
 </head>
 
 <body>
@@ -155,7 +158,7 @@ $(function(){
     var warp_offsetLeft = document.getElementById("button-warp").offsetLeft;
     var coordinate_offsetLeft = coordinate.offsetLeft;
     user.style.width = width + "px";
-    user.style.display = "block";
+    user.style.display = "flex";
     var w = $(document.body).width();
     user.style.left = (w - width)/2  + "px";
     // var h = coordinate.offsetTop;

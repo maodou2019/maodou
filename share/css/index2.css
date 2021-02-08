@@ -194,9 +194,9 @@
   line-height: 50px;
   border-radius: 50px;
   left:40px;
-  /* flex-direction: row;
+  flex-direction: row;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 
 #user,#user:active,#user:hover,#user:visited{
